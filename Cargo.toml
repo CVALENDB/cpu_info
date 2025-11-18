@@ -2,12 +2,19 @@
 name = "cpu_info"
 version = "0.1.0"
 edition = "2024"
+authors = ["Cristian Camilo Valencia Jurado <Cvalendb@outlook.com>"]
+license = "MIT"
+description = "A lightweight, cross-platform Rust library to retrieve CPU vendor, model, core topology, and hybrid distribution detection using pure Rust with no external commands."
+readme = "README.md"
+repository = "https://github.com/CVALENDB/cpu_info"
+homepage = "https://github.com/CVALENDB/cpu_info"
+documentation = "https://docs.rs/cpu_info"
+keywords = ["cpu", "info", "hardware", "system", "topology"]
+categories = ["hardware-support", "os", "system"]
+exclude = ["target/", "docs/"]
 
 [dependencies]
-windows ={ version = "0.62.2", optional = true, features = ["Win32_System_SystemInformation"] }
-
-
-
+windows = { version = "0.62.2", optional = true, features = ["Win32_System_SystemInformation"] }
 
 [features]
 default = ["linux"]
