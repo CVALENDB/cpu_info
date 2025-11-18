@@ -10,7 +10,7 @@ repository = "https://github.com/CVALENDB/cpu_info"
 homepage = "https://github.com/CVALENDB/cpu_info"
 documentation = "https://docs.rs/cpu_info"
 keywords = ["cpu", "info", "hardware", "system", "topology"]
-categories = ["hardware-support", "os", "system"]
+categories = ["hardware-support", "os"]
 exclude = ["target/", "docs/"]
 
 [dependencies]
