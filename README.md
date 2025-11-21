@@ -20,7 +20,7 @@ This crate is pure Rust and does **not** use any C libraries or bindings.
 
 ---
 
-## ✨ Features
+## Features
 
 ### ✔ Accurate vendor detection
 
@@ -68,7 +68,7 @@ This will allow applications and game engines to **adapt dynamically** to availa
 
 ---
 
-## 🚀 Example
+## Example
 
 ```rust
 use cpu_info::CpuInfo;
